@@ -1,5 +1,6 @@
 package com.example.pricemarket;
 
+import com.example.pricemarket.models.CurrencyPrice;
 import com.example.pricemarket.models.Price;
 import com.example.pricemarket.models.PriceStorage;
 import java.math.BigDecimal;

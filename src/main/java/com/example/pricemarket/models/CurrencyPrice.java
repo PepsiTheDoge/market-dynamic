@@ -1,4 +1,4 @@
-package com.example.pricemarket;
+package com.example.pricemarket.models;
 
 import com.example.pricemarket.models.Price;
 import com.example.pricemarket.models.PriceStorage;

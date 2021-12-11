@@ -1,5 +1,6 @@
 package com.example.pricemarket;
 
+import com.example.pricemarket.models.CurrencyPrice;
 import com.example.pricemarket.models.PriceStorage;
 import com.google.gson.Gson;
 import org.springframework.web.reactive.socket.WebSocketHandler;
