@@ -1,0 +1,13 @@
+/*
+.ui.buttons .inactive.button,
+.ui.inactive.button,
+.ui.button:inactive,
+.ui.inactive.button:hover,
+.ui.inactive.active.button {
+  opacity: 0.45 !important;
+}
+*/
+
+.inactive {
+  opacity: 0.45 !important;
+}

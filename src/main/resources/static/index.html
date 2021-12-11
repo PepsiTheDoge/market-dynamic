@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="./styles.css" />
+    <link type="text/css" rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" />
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+<div>
+    <div id="chartContainer" style="height: 370px; width:100%;"></div>
+    <div id="connect-container" class="ui centered grid">
+        <div class="row">
+            <button id="toggle-uah" onclick="toggle('UAH');"
+                    class="ui blue button inactive">UAH</button>
+            <button id="toggle-usd" onclick="toggle('USD');"
+                    class="ui red button inactive">USD</button>
+            </div>
+    </div>
+    <div id="timerange-container" class="ui centered grid">
+        <div class="row">
+            <button id="0-minute-range" onclick="setTimeRange(0);"
+                    class="ui orange button">Live</button>
+            <button id="1-minute-range" onclick="setTimeRange(1);"
+                    class="ui green button inactive">1 min</button>
+            <button id="2-minute-range" onclick="setTimeRange(2);"
+                    class="ui green button inactive">2 min</button>
+            <button id="5-minute-range" onclick="setTimeRange(5);"
+                    class="ui green button inactive">5 min</button>
+            <button id="10-minute-range" onclick="setTimeRange(10);"
+                    class="ui green button inactive">10 min</button>
+        </div>
+    </div>
+    <div id="console-container">
+        <h3>Logging</h3>
+        <div id="logging"></div>
+    </div>
+</div>
+</body>
+</html>
